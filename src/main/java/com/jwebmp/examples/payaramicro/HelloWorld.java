@@ -19,7 +19,7 @@ package com.jwebmp.examples.payaramicro;
 
 import com.jwebmp.Page;
 import com.jwebmp.base.html.Paragraph;
-import com.jwebmp.guiceinjection.GuiceContext;
+import com.jwebmp.guicedinjection.GuiceContext;
 import com.jwebmp.logger.LogFactory;
 import fish.payara.micro.PayaraMicro;
 import fish.payara.micro.PayaraMicroRuntime;
