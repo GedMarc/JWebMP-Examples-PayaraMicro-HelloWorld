@@ -17,8 +17,8 @@
 
 package com.jwebmp.examples.payaramicro;
 
-import com.jwebmp.Page;
-import com.jwebmp.base.html.Paragraph;
+import com.jwebmp.core.Page;
+import com.jwebmp.core.base.html.Paragraph;
 import com.jwebmp.guicedinjection.GuiceContext;
 import com.jwebmp.logger.LogFactory;
 import fish.payara.micro.PayaraMicro;
