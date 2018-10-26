@@ -9,7 +9,7 @@
     </parent>
 
     <groupId>com.jwebmp.examples.payaramicro</groupId>
-    <artifactId>helloworld</artifactId>
+    <artifactId>helloworld-payara</artifactId>
 
     <packaging>jar</packaging>
 
