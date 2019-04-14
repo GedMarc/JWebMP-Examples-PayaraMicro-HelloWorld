@@ -3,14 +3,12 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>com.jwebmp</groupId>
-        <artifactId>jwebmp-builder</artifactId>
+        <groupId>com.jwebmp.examples.payaramicro</groupId>
+        <artifactId>jwebmp-examples-payaramicro</artifactId>
         <version>0.0.0_0-SNAPSHOT</version>
     </parent>
 
-    <groupId>com.jwebmp.examples.payaramicro</groupId>
     <artifactId>helloworld-payara</artifactId>
-
     <packaging>jar</packaging>
 
     <name>Payara Micro - Hello World</name>
@@ -25,31 +23,23 @@
     </issueManagement>
 
     <dependencies>
-
         <dependency>
-            <groupId>com.jwebmp</groupId>
+            <groupId>com.jwebmp.core</groupId>
             <artifactId>jwebmp-core</artifactId>
-            <version>${project.version}</version>
         </dependency>
-
         <dependency>
             <groupId>fish.payara.extras</groupId>
             <artifactId>payara-microprofile</artifactId>
             <version>1.0-4.1.2.172</version>
         </dependency>
         <dependency>
-            <groupId>com.jwebmp</groupId>
+            <groupId>com.jwebmp.guicedee</groupId>
             <artifactId>guiced-injection</artifactId>
-            <version>${project.version}</version>
-            <scope>compile</scope>
         </dependency>
         <dependency>
-            <groupId>com.jwebmp</groupId>
-            <artifactId>jwebmp-log-master</artifactId>
-            <version>${project.version}</version>
-            <scope>compile</scope>
+            <groupId>com.jwebmp.guicedee</groupId>
+            <artifactId>guiced-log-master</artifactId>
         </dependency>
-
     </dependencies>
 
     <scm>
