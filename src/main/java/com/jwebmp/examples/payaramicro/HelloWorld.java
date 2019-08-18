@@ -28,7 +28,7 @@ import fish.payara.micro.data.InstanceDescriptor;
 import java.util.logging.Level;
 
 public class HelloWorld
-		extends Page
+		extends Page<HelloWorld>
 {
 	public HelloWorld()
 	{
